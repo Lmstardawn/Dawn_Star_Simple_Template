@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "cn.autoforged.dawn_star_simple_template_1793280982.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

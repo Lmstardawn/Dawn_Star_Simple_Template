@@ -1,0 +1,138 @@
+{
+  "parent": "dawn_star_mod_1788251976:more_templates",
+  "display": {
+    "icon": {
+      "id": "minecraft:silence_armor_trim_smithing_template",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.dawn_star_simple_template_1793280982.templates_easy_peasy.title"
+    },
+    "description": {
+      "translate": "advancements.dawn_star_simple_template_1793280982.templates_easy_peasy.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_netherite_upgrade": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:netherite_upgrade_smithing_template"
+      }
+    },
+    "craft_ward_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:ward_armor_trim_smithing_template"
+      }
+    },
+    "craft_wild_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:wild_armor_trim_smithing_template"
+      }
+    },
+    "craft_vex_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:vex_armor_trim_smithing_template"
+      }
+    },
+    "craft_tide_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:tide_armor_trim_smithing_template"
+      }
+    },
+    "craft_sentry_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:sentry_armor_trim_smithing_template"
+      }
+    },
+    "craft_coast_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:coast_armor_trim_smithing_template"
+      }
+    },
+    "craft_dune_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:dune_armor_trim_smithing_template"
+      }
+    },
+    "craft_snout_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:snout_armor_trim_smithing_template"
+      }
+    },
+    "craft_rib_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:rib_armor_trim_smithing_template"
+      }
+    },
+    "craft_eye_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:eye_armor_trim_smithing_template"
+      }
+    },
+    "craft_spire_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:spire_armor_trim_smithing_template"
+      }
+    },
+    "craft_silence_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:silence_armor_trim_smithing_template"
+      }
+    },
+    "craft_wayfinder_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:wayfinder_armor_trim_smithing_template"
+      }
+    },
+    "craft_raiser_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:raiser_armor_trim_smithing_template"
+      }
+    },
+    "craft_shaper_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:shaper_armor_trim_smithing_template"
+      }
+    },
+    "craft_host_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:host_armor_trim_smithing_template"
+      }
+    },
+    "craft_flow_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:flow_armor_trim_smithing_template"
+      }
+    },
+    "craft_bolt_trim": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "dawn_star_simple_template_1793280982:bolt_armor_trim_smithing_template"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

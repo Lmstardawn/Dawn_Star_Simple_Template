@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": "minecraft:diamond",
+    "N": "minecraft:netherite_ingot",
+    "S": "dawn_star_mod_1788251976:star_forge_upgrade"
+  },
+  "pattern": [
+    "DSD",
+    "DND",
+    "DDD"
+  ],
+  "result": {
+    "count": 2,
+    "id": "dawn_star_mod_1788251976:star_forge_upgrade"
+  }
+}

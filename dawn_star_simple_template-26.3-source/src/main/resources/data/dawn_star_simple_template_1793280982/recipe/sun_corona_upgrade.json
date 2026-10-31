@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "dawn_star_equipment_1789668910"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DSD",
+    "DID",
+    "DFD"
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "S": "dawn_star_equipment_1789668910:sun_corona_upgrade",
+    "I": "dawn_star_equipment_1789668910:sun_corona_ingot",
+    "F": "dawn_star_equipment_1789668910:nether_star_shard"
+  },
+  "result": {
+    "id": "dawn_star_equipment_1789668910:sun_corona_upgrade",
+    "count": 2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": "minecraft:diamond",
+    "F": "dawn_star_mod_1788251976:eternal_dawn_star_fragment",
+    "N": "minecraft:nether_star",
+    "S": "dawn_star_mod_1788251976:dawn_forge_upgrade"
+  },
+  "pattern": [
+    "DSD",
+    "DFD",
+    "DND"
+  ],
+  "result": {
+    "count": 2,
+    "id": "dawn_star_mod_1788251976:dawn_forge_upgrade"
+  }
+}
