@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "dawn_star_equipment_1789668910"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_star_shimmer_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "dawn_star_equipment_1789668910:star_shimmer_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dawn_star_simple_template_1793280982:star_shimmer_upgrade"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_star_shimmer_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dawn_star_simple_template_1793280982:star_shimmer_upgrade"
+    ]
+  }
+}

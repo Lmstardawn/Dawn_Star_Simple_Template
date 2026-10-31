@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "minecraft:diamond",
+    "M": "minecraft:stone",
+    "T": "dawn_star_mod_1788251976:forge_upgrade_template"
+  },
+  "pattern": [
+    "DTD",
+    "DMD",
+    "DDD"
+  ],
+  "result": {
+    "id": "minecraft:vex_armor_trim_smithing_template"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": [
+      "minecraft:copper_block",
+      "minecraft:waxed_copper_block"
+    ],
+    "D": "minecraft:diamond",
+    "T": "dawn_star_mod_1788251976:forge_upgrade_template"
+  },
+  "pattern": [
+    "DTD",
+    "DCD",
+    "DDD"
+  ],
+  "result": {
+    "id": "minecraft:bolt_armor_trim_smithing_template"
+  }
+}
