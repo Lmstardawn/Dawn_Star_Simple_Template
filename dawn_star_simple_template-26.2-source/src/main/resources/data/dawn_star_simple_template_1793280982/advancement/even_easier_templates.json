@@ -1,0 +1,36 @@
+{
+  "parent": "dawn_star_simple_template_1793280982:templates_easy_peasy",
+  "display": {
+    "icon": {
+      "id": "dawn_star_mod_1788251976:dawn_forge_upgrade",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.dawn_star_simple_template_1793280982.even_easier_templates.title"
+    },
+    "description": {
+      "translate": "advancements.dawn_star_simple_template_1793280982.even_easier_templates.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_star_forge_upgrade": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "dawn_star_simple_template_1793280982:starpower_smithing_upgrade"
+      }
+    },
+    "craft_dawn_forge_upgrade": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "dawn_star_simple_template_1793280982:dawn_smithing_upgrade"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 67
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "dawn_star_simple_template_1793280982",
+  "version": "${version}",
+  "name": "Dawn Star: Simple Template",
+  "description": "Adds workbench recipes for the Netherite Upgrade, all 18 armor trims, and the Star/Dawn Forge Upgrades using Dawn Star materials.",
+  "authors": [
+    "Dawn, XZbai_mo"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.autoforged.dawn_star_simple_template_1793280982.ExampleMod"
+    ],
+    "client": [
+      "cn.autoforged.dawn_star_simple_template_1793280982.client.ExampleModClient"
+    ],
+    "fabric-datagen": [
+      "cn.autoforged.dawn_star_simple_template_1793280982.datagen.ModDataGenerator"
+    ]
+  },
+  "mixins": [
+    "dawn_star_simple_template_1793280982.mixins.json",
+    {
+      "config": "dawn_star_simple_template_1793280982.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "dawn_star_mod_1788251976": "*"
+  },
+  "suggests": {
+    "dawn_star_equipment_1789668910": "*"
+  },
+  "custom": {
+    "autoforge:addon_depends": [
+      "dawn_star_mod_1788251976"
+    ]
+  }
+}
